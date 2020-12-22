@@ -1,4 +1,22 @@
 {
+  "CF102017957": {
+    "contest_id": 158,
+    "language": "GNU C++14",
+    "path": "codeforces\\158\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Taxi",
+    "problem_url": "https://codeforces.com/contest/158/problem/B",
+    "submission_id": "CF102017957",
+    "submission_url": "https://codeforces.com/contest/158/submission/102017957",
+    "tags": [
+      "*special problem",
+      "greedy",
+      "implementation",
+      "*1100"
+    ],
+    "timestamp": "Dec/22/2020 12:10"
+  },
   "CF102025269": {
     "contest_id": 270,
     "language": "GNU C++14",
