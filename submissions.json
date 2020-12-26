@@ -1,4 +1,23 @@
 {
+  "CF102368225": {
+    "contest_id": 1108,
+    "language": "GNU C++14",
+    "path": "codeforces\\1108\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Divisors of Two Integers",
+    "problem_url": "https://codeforces.com/contest/1108/problem/B",
+    "submission_id": "CF102368225",
+    "submission_url": "https://codeforces.com/contest/1108/submission/102368225",
+    "tags": [
+      "brute force",
+      "greedy",
+      "math",
+      "number theory",
+      "*1100"
+    ],
+    "timestamp": "Dec/26/2020 11:23"
+  },
   "CF102449228": {
     "contest_id": 1288,
     "language": "GNU C++14",
