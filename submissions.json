@@ -1,4 +1,21 @@
 {
+  "CF102522668": {
+    "contest_id": 581,
+    "language": "GNU C++14",
+    "path": "codeforces\\581\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Luxurious Houses",
+    "problem_url": "https://codeforces.com/contest/581/problem/B",
+    "submission_id": "CF102522668",
+    "submission_url": "https://codeforces.com/contest/581/submission/102522668",
+    "tags": [
+      "implementation",
+      "math",
+      "*1100"
+    ],
+    "timestamp": "Dec/28/2020 13:55"
+  },
   "CF102606782": {
     "contest_id": 1189,
     "language": "GNU C++14",
