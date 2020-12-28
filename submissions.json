@@ -1,4 +1,22 @@
 {
+  "CF102606782": {
+    "contest_id": 1189,
+    "language": "GNU C++14",
+    "path": "codeforces\\1189\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Number Circle",
+    "problem_url": "https://codeforces.com/contest/1189/problem/B",
+    "submission_id": "CF102606782",
+    "submission_url": "https://codeforces.com/contest/1189/submission/102606782",
+    "tags": [
+      "greedy",
+      "math",
+      "sortings",
+      "*1100"
+    ],
+    "timestamp": "Dec/28/2020 21:30"
+  },
   "CF102617622": {
     "contest_id": 66,
     "language": "GNU C++14",
