@@ -1,4 +1,20 @@
 {
+  "CF102666360": {
+    "contest_id": 545,
+    "language": "GNU C++14",
+    "path": "codeforces\\545\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Equidistant String",
+    "problem_url": "https://codeforces.com/contest/545/problem/B",
+    "submission_id": "CF102666360",
+    "submission_url": "https://codeforces.com/contest/545/submission/102666360",
+    "tags": [
+      "greedy",
+      "*1100"
+    ],
+    "timestamp": "Dec/29/2020 13:04"
+  },
   "CF102667888": {
     "contest_id": 242,
     "language": "GNU C++14",
