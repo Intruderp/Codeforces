@@ -1,4 +1,22 @@
 {
+  "CF102772243": {
+    "contest_id": 12,
+    "language": "GNU C++14",
+    "path": "codeforces\\12\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Fruits",
+    "problem_url": "https://codeforces.com/contest/12/problem/C",
+    "submission_id": "CF102772243",
+    "submission_url": "https://codeforces.com/contest/12/submission/102772243",
+    "tags": [
+      "greedy",
+      "implementation",
+      "sortings",
+      "*1100"
+    ],
+    "timestamp": "Dec/30/2020 19:52"
+  },
   "CF102893511": {
     "contest_id": 988,
     "language": "GNU C++14",
