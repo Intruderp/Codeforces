@@ -1,4 +1,21 @@
 {
+  "CF102920933": {
+    "contest_id": 1255,
+    "language": "GNU C++14",
+    "path": "codeforces\\1255\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Fridge Lockers",
+    "problem_url": "https://codeforces.com/contest/1255/problem/B",
+    "submission_id": "CF102920933",
+    "submission_url": "https://codeforces.com/contest/1255/submission/102920933",
+    "tags": [
+      "graphs",
+      "implementation",
+      "*1100"
+    ],
+    "timestamp": "Dec/31/2020 20:42"
+  },
   "CF103021098": {
     "contest_id": 721,
     "language": "GNU C++14",
