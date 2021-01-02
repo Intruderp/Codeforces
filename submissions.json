@@ -1,4 +1,23 @@
 {
+  "CF103021098": {
+    "contest_id": 721,
+    "language": "GNU C++14",
+    "path": "codeforces\\721\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Passwords",
+    "problem_url": "https://codeforces.com/contest/721/problem/B",
+    "submission_id": "CF103021098",
+    "submission_url": "https://codeforces.com/contest/721/submission/103021098",
+    "tags": [
+      "implementation",
+      "math",
+      "sortings",
+      "strings",
+      "*1100"
+    ],
+    "timestamp": "Jan/02/2021 16:10"
+  },
   "CF103069907": {
     "contest_id": 1370,
     "language": "GNU C++14",
