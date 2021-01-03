@@ -1,4 +1,21 @@
 {
+  "CF103115045": {
+    "contest_id": 116,
+    "language": "GNU C++14",
+    "path": "codeforces\\116\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Little Pigs and Wolves",
+    "problem_url": "https://codeforces.com/contest/116/problem/B",
+    "submission_id": "CF103115045",
+    "submission_url": "https://codeforces.com/contest/116/submission/103115045",
+    "tags": [
+      "greedy",
+      "implementation",
+      "*1100"
+    ],
+    "timestamp": "Jan/03/2021 22:18"
+  },
   "CF103154054": {
     "contest_id": 731,
     "language": "GNU C++14",
