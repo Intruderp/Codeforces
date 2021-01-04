@@ -1,4 +1,21 @@
 {
+  "CF103154054": {
+    "contest_id": 731,
+    "language": "GNU C++14",
+    "path": "codeforces\\731\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Coupons and Discounts",
+    "problem_url": "https://codeforces.com/contest/731/problem/B",
+    "submission_id": "CF103154054",
+    "submission_url": "https://codeforces.com/contest/731/submission/103154054",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "*1100"
+    ],
+    "timestamp": "Jan/04/2021 13:50"
+  },
   "CF103170188": {
     "contest_id": 712,
     "language": "GNU C++14",
