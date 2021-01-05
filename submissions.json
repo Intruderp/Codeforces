@@ -1,4 +1,22 @@
 {
+  "CF103387813": {
+    "contest_id": 898,
+    "language": "GNU C++14",
+    "path": "codeforces\\898\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Proper Nutrition",
+    "problem_url": "https://codeforces.com/contest/898/problem/B",
+    "submission_id": "CF103387813",
+    "submission_url": "https://codeforces.com/contest/898/submission/103387813",
+    "tags": [
+      "brute force",
+      "implementation",
+      "number theory",
+      "*1100"
+    ],
+    "timestamp": "Jan/05/2021 19:27"
+  },
   "CF103389939": {
     "contest_id": 884,
     "language": "GNU C++14",
