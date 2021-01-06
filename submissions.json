@@ -1,4 +1,21 @@
 {
+  "CF103570095": {
+    "contest_id": 1352,
+    "language": "GNU C++14",
+    "path": "codeforces\\1352\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Same Parity Summands",
+    "problem_url": "https://codeforces.com/contest/1352/problem/B",
+    "submission_id": "CF103570095",
+    "submission_url": "https://codeforces.com/contest/1352/submission/103570095",
+    "tags": [
+      "constructive algorithms",
+      "math",
+      "*1200"
+    ],
+    "timestamp": "Jan/06/2021 22:57"
+  },
   "CF103597641": {
     "contest_id": 1352,
     "language": "GNU C++14",
