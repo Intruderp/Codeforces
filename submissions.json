@@ -1,4 +1,20 @@
 {
+  "AC19783012": {
+    "contest_id": "abc190",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc190\\A.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Very Very Primitive Game",
+    "problem_url": "https://atcoder.jp/contests/abc190/tasks/abc190_a",
+    "submission_id": "AC19783012",
+    "submission_url": "https://atcoder.jp/contests/abc190/submissions/19783012",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Jan/30/2021 17:38"
+  },
   "AC19791199": {
     "contest_id": "abc190",
     "language": "C++ (GCC 9.2.1)",
