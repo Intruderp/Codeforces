@@ -1386,6 +1386,23 @@
     ],
     "timestamp": "Jan/15/2021 20:31"
   },
+  "CF108223449": {
+    "contest_id": 1338,
+    "language": "GNU C++17",
+    "path": "codeforces\\1338\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Powered Addition",
+    "problem_url": "https://codeforces.com/contest/1338/problem/A",
+    "submission_id": "CF108223449",
+    "submission_url": "https://codeforces.com/contest/1338/submission/108223449",
+    "tags": [
+      "greedy",
+      "math",
+      "*1500"
+    ],
+    "timestamp": "Feb/23/2021 10:41"
+  },
   "CF108360247": {
     "contest_id": 189,
     "language": "GNU C++17",
