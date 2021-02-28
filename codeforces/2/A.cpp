@@ -30,10 +30,16 @@ signed main()
     {
         mx=max(mx,it.second);
     }
+    set<string> st;
+    for(auto it:m)
+    {
+        if(it.second==mx)
+        st.insert(it.first);
+    }
     loop(i,0,n)
     {
         mf[s[i]]+=a[i];
-        if(mf[s[i]]>=mx && m[s[i]]==mx)
+        if(mf[s[i]]>=mx && st.count(s[i]))
         {
             cout<<s[i];
             return 0;
