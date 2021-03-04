@@ -23,10 +23,13 @@ signed main()
         cin>>a[i];
     }
     sort(a,a+n);
+    pair <int,int> p[q];
     vi v(n,0);
     loop(i,0,q)
     {
         cin>>x>>y;
+        p[i].first=x;
+        p[i].second=y;
         if(y==n)
         {
             v[x-1]++;
@@ -42,9 +45,34 @@ signed main()
     {
         v[i]+=v[i-1];
     }
-    sort(v.begin(),v.end());
+    multimap <int,int> m;
     loop(i,0,n)
-    an+=v[i]*a[i];
+    {
+        m.insert({v[i],i});
+    }
+    vi ans(n);
+    int j=0;
+    for(auto it=m.begin();it!=m.end();it++)
+    {
+        ans[it->second]=a[j];
+        j++;
+    }
+    loop(i,1,n)
+    ans[i]+=ans[i-1];
+    loop(i,0,q)
+    {
+        x=p[i].first;
+        y=p[i].second;
+        if(x==1)
+        {
+            an+=ans[y-1];
+        }
+        else
+        {
+            an+=ans[y-1]-ans[x-2];
+        }
+        
+    }
     cout<<an;
     return 0;
 }
