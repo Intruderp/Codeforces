@@ -22,6 +22,7 @@ signed main()
         cout<<"YES";
         return 0;
     }
+    set <int> s;
     vi v;
     bool b=false;
     loop(i,0,m)
@@ -31,9 +32,10 @@ signed main()
         {
             b=true;
         }
-        v.pb(x);
+        s.insert(x);
     }
-    sort(v.begin(),v.end());
+    for(auto i:s)
+    v.pb(i);
     loop(i,0,v.size()-1)
     {
         if(v[i]+1==v[i+1])
@@ -45,9 +47,16 @@ signed main()
         }
     }
     ans=max(ans,c);
+    //cout<<ans<<endl;
     if(ans>1 || b)
-    cout<<"NO";
+    {
+        cout<<"NO";
+    }
     else
-    cout<<"YES";
+    {
+        cout<<"YES";
+    }
+    
+
     return 0;
 }
