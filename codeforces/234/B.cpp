@@ -13,9 +13,9 @@ using namespace std;
                                                                                                    
 signed main()
 {
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
-    cout.tie(NULL);
+    // ios_base::sync_with_stdio(false);
+    // cin.tie(NULL);
+    // cout.tie(NULL);
     freopen("input.txt","r",stdin);
 	freopen("output.txt","w",stdout);
     int n,k,mn=100,x;
