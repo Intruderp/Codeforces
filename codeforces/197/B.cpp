@@ -43,11 +43,16 @@ signed main()
     cout<<"0/1";
     else if(m==n)
     {
+       // cout<<__gcd(a1,b1)<<endl;
         int g=__gcd(abs(a1),abs(b1));
-        if((a1>0 && b1>0) || (a1<0 && b1<0))
-        cout<<abs(a1)/g<<'/'<<abs(b1)/g;
-        else  
-        cout<<'-'<<abs(a1)/g<<'/'<<abs(b1)/g;
+        if(a1<0 || b1<0)
+        g=g*(-1);
+        if(a1<0 && b1<0)
+        g=g*(-1);
+        //cout<<g<<endl;
+        if(g<0)
+        cout<<'-'<<abs(a1)/abs(g)<<'/'<<abs(b1)/abs(g);
+        else  cout<<abs(a1)/g<<'/'<<abs(b1)/g;
     }
     return 0;
 }
