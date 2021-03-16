@@ -1386,6 +1386,24 @@
     ],
     "timestamp": "Jan/15/2021 20:31"
   },
+  "CF110074066": {
+    "contest_id": 260,
+    "language": "GNU C++17",
+    "path": "codeforces\\260\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Ancient Prophesy",
+    "problem_url": "https://codeforces.com/contest/260/problem/B",
+    "submission_id": "CF110074066",
+    "submission_url": "https://codeforces.com/contest/260/submission/110074066",
+    "tags": [
+      "brute force",
+      "implementation",
+      "strings",
+      "*1600"
+    ],
+    "timestamp": "Mar/16/2021 07:52"
+  },
   "CF110077594": {
     "contest_id": 63,
     "language": "GNU C++17",
