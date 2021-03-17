@@ -1386,6 +1386,23 @@
     ],
     "timestamp": "Jan/15/2021 20:31"
   },
+  "CF110138142": {
+    "contest_id": 69,
+    "language": "GNU C++17",
+    "path": "codeforces\\69\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Bets",
+    "problem_url": "https://codeforces.com/contest/69/problem/B",
+    "submission_id": "CF110138142",
+    "submission_url": "https://codeforces.com/contest/69/submission/110138142",
+    "tags": [
+      "greedy",
+      "implementation",
+      "*1200"
+    ],
+    "timestamp": "Mar/17/2021 08:56"
+  },
   "CF110141090": {
     "contest_id": 492,
     "language": "GNU C++17",
