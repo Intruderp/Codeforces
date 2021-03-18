@@ -28,13 +28,13 @@ signed main()
             a[x]++;
         }
         set<int> s;
-        // vi v;
-        // for(int i:a)
-        // {
-        //     if(i!=0)
-        //     v.pb(i);
-        // }
+        vi v;
         for(int i:a)
+        {
+            if(i!=0)
+            v.pb(i);
+        }
+        for(int i:v)
         {
             if(s.count(i)==0)
             {
