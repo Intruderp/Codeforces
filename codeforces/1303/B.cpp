@@ -33,7 +33,7 @@ signed main()
             ans+=cycle*b;
             ans+=(n+1)/2;
         }
-        ans=max(ans,n);//min ans=n
+        ans=max(ans,n);
         cout<<ans<<'\n';
     }
     
