@@ -21,13 +21,13 @@ signed main()
     while (t--)
     {
         cin>>n;
-        //int a[n];
-        int sum=0,x=0,y;
+        int a[n];
+        int sum=0,x=0;
         loop(i,0,n)
         {
-            cin>>y;
-            sum+=y;
-            x=(x^y);
+            cin>>a[i];
+            sum+=a[i];
+            x=(x^a[i]);
         }
         if(sum==(2*x))
         {
