@@ -1386,6 +1386,25 @@
     ],
     "timestamp": "Jan/15/2021 20:31"
   },
+  "CF110862377": {
+    "contest_id": 1042,
+    "language": "GNU C++17",
+    "path": "codeforces\\1042\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Vitamins",
+    "problem_url": "https://codeforces.com/contest/1042/problem/B",
+    "submission_id": "CF110862377",
+    "submission_url": "https://codeforces.com/contest/1042/submission/110862377",
+    "tags": [
+      "bitmasks",
+      "brute force",
+      "dp",
+      "implementation",
+      "*1200"
+    ],
+    "timestamp": "Mar/24/2021 11:03"
+  },
   "CF110962264": {
     "contest_id": 1380,
     "language": "GNU C++17",
