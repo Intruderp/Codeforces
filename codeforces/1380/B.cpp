@@ -26,7 +26,7 @@ signed main()
         map<char,int> m;
         for(char c:s)
         m[c]++;
-        //string ans;
+        string ans;
         for(char c:s)
         {
             w1=m['S'];
@@ -34,13 +34,13 @@ signed main()
             w3=m['P'];
             mx=max({w1,w2,w3});
             if(mx==w1)
-            cout<<('R');
+            ans.pb('R');
             else if(mx==w2)
-            cout<<('P');
+            ans.pb('P');
             else 
-            cout<<('S');
+            ans.pb('S');
         }
-        cout<<'\n';
+        cout<<ans<<'\n';
     }
     return 0;
 }
