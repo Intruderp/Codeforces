@@ -55,10 +55,10 @@ signed main()
                 }
             }
             check++;
-            if(check>n)
+            if(check>10000)
             break;
         }
-        if(check>n)
+        if(check>10000)
         ans=-1;
         cout<<ans<<'\n';
     }
