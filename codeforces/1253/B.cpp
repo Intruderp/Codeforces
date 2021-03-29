@@ -16,8 +16,8 @@ signed main()
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
     cout.tie(NULL);
-    int n,c=0,sum=0;
-    mp m,m1;
+    int n,c=0;
+    mp m;
     vi ans;
     cin>>n;
     int a[n];
@@ -27,18 +27,7 @@ signed main()
     {
         if(a[i]>0)
         {
-            if(m[a[i]]==1)
-            {
-                cout<<-1;
-                return 0;
-            }
             m[a[i]]=1;
-            m1[a[i]]++;
-            if(m1[a[i]]>1)
-            {
-                cout<<-1;
-                return 0;
-            }
         }
         else
         {
@@ -47,16 +36,43 @@ signed main()
                 cout<<-1;
                 return 0;
             }
-            m.erase(abs(a[i]));
+            else
+            {
+                m.erase(abs(a[i]));
+            }
         }
         c++;
         if(m.size()==0)
-        ans.pb(c),sum+=c,c=0,m1.clear();
+        ans.pb(c),c=0;
     }
-    if(sum<n)
+    int i=0,j=0;
+    for(int i=0;i<ans.size();i++)
+    j+=ans[i];
+    if(j<n)
     {
         cout<<-1;
         return 0;
+    }
+    j=0,i=0;
+    while (i<n)
+    {
+        mp m1;
+        for(int k=0;k<ans[j];k++)
+        {
+            //cout<<i<<' '<<j<<endl;
+            m1[a[i]]++;
+            i++;
+        }
+        for(auto it:m1)
+        {
+            if(it.second>1)
+            {
+                cout<<-1;
+                return 0;
+            }
+        }
+        j++;
+       // cout<<i<<' '<<j<<endl;
     }
     cout<<ans.size()<<endl;
     for(int it:ans)
