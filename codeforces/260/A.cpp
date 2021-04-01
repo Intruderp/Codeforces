@@ -21,14 +21,26 @@ signed main()
     aa=a;
     string s;
     bool c=false;
-    for(int i=0;i<=9;i++)
+    loop(i,0,1)
     {
-        if((a*10+i)%b==0)
+        c=false;
+        for(char j='0';j<='9';j++)
         {
-            c=true;
-            a=a*10+i;
-            break;
+            s.clear();
+            s=to_string(aa);
+            s.pb(j);
+            stringstream obj(s);
+            obj>>x;
+            if(x%b==0)
+            {
+                a=x;
+                aa=a;
+                c=true;
+                break;
+            }
         }
+        if(c==false)
+        break;
     }
     if(c)
     {
