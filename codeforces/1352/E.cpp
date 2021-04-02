@@ -32,7 +32,7 @@ signed main()
             {
                 sum+=a[j];
                 if(sum>n)
-                break;
+                continue;
                 s[sum]++;
             }
         }
