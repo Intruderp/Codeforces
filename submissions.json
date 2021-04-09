@@ -1386,6 +1386,23 @@
     ],
     "timestamp": "Jan/15/2021 20:31"
   },
+  "CF112369711": {
+    "contest_id": 220,
+    "language": "GNU C++17",
+    "path": "codeforces\\220\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Little Elephant and Problem",
+    "problem_url": "https://codeforces.com/contest/220/problem/A",
+    "submission_id": "CF112369711",
+    "submission_url": "https://codeforces.com/contest/220/submission/112369711",
+    "tags": [
+      "implementation",
+      "sortings",
+      "*1300"
+    ],
+    "timestamp": "Apr/09/2021 15:58"
+  },
   "CF112423922": {
     "contest_id": 1462,
     "language": "GNU C++17",
