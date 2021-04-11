@@ -1,0 +1,47 @@
+#include <bits/stdc++.h>
+#define vi vector<int>
+#define ma map<int, int>
+#define uma unordered_map<int, int>
+#define ll long long int
+#define pb push_back
+#define mod 1000000007
+#define int long long
+#define loop(i, x, n) for (int i = x; i < n; i++)
+#define rloop(i, n) for (int i = n - 1; i >= 0; i--)
+#define test  \
+    int t;    \
+    cin >> t; \
+    while (t--)
+#define mp make_pair
+#define pr pair<int, int>
+using namespace std;
+/*************************************************************************************************/
+
+void solve()
+{
+    int n, x, y;
+    cin >> n;
+    int ans = 0;
+    for (int i = 1; i <= n; i++)
+    {
+        x = i;
+        y = n - x;
+        if (x > 0 && y > 0)
+        {
+            ans++;
+            // if (x != y)
+            //     ans++;
+        }
+    }
+    cout << ans;
+}
+signed main()
+{
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    cout.tie(NULL);
+    //test
+    solve();
+
+    return 0;
+}
