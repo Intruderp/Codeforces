@@ -18,28 +18,25 @@ void solve()
 {
     int n,x,ans=0;
     cin>>n;
-    uma m;
+    set<int> s;
     vi v;
     loop(i,0,n)
     {
         cin>>x;
         if(x%2==0)
-        {
-            v.pb(x);
-            m[x]=1;
-        }
+        v.pb(x);
     }
     sort(v.rbegin(),v.rend());
     for(int i=0;i<v.size();i++)
     {
-        if(m[v[i]]==0)
+        if(s.count(v[i]))
         continue;
         while (v[i]%2==0)
         {
-            m[v[i]]=0;
+            s.insert(v[i]);
             v[i]/=2;
             ans++;
-            m[v[i]]=0;
+            s.insert(v[i]);
         }
         
     }
