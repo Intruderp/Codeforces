@@ -1386,6 +1386,23 @@
     ],
     "timestamp": "Jan/15/2021 20:31"
   },
+  "CF113080911": {
+    "contest_id": 1506,
+    "language": "GNU C++17",
+    "path": "codeforces\\1506\\E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Restoring the Permutation",
+    "problem_url": "https://codeforces.com/contest/1506/problem/E",
+    "submission_id": "CF113080911",
+    "submission_url": "https://codeforces.com/contest/1506/submission/113080911",
+    "tags": [
+      "constructive algorithms",
+      "implementation",
+      "*1500"
+    ],
+    "timestamp": "Apr/15/2021 16:08"
+  },
   "CF113599251": {
     "contest_id": 1385,
     "language": "GNU C++17",
