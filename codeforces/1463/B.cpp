@@ -42,7 +42,6 @@ void solve()
                 cout<<y<<' ';
                 else 
                 cout<<x<<' ';
-                // for 3rd condition
             }
         }  
 
