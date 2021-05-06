@@ -61,7 +61,7 @@ void solve()
         k--;
     }
     //cout<<x<<' '<<y<<endl;
-    cout<<'\n';
+    cout<<endl;
     
 }
 signed main()
