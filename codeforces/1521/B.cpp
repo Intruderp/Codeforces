@@ -72,7 +72,7 @@ signed main()
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
     cout.tie(NULL);
-    //seive();
+    seive();
     test
     solve();
     return 0;
