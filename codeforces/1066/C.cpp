@@ -11,25 +11,34 @@
 #define test int t; cin>>t; while(t--)
 using namespace std;
 /*************************************************************************************************/
+map<pair<char,int>,int> m;
 signed main()
 {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
     cout.tie(NULL);
-    int q,id,i=2000001,j=2000002,x;
+    int q,id,i=2000001,j=2000002,x,y,a,b;
     char c;
-    int a[200005];
     cin>>q;
     while (q--)
     {
         cin>>c>>id;
         if(c=='L')
-            a[id]=i,i--;
+        {
+            m[{c,id}]=i;
+            i--;
+        }
         else if(c=='R')
-            a[id]=j,j++;
+        {
+            m[{c,id}]=j;
+            j++;
+        }
         else
         {
-            x=a[id];
+            if(m.count({'L',id}))
+            x=m[{'L',id}];
+            else 
+            x=m[{'R',id}];
             cout<<min(x-i-1,j-x-1)<<'\n';
         }
     }
