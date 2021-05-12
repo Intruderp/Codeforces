@@ -1386,6 +1386,22 @@
     ],
     "timestamp": "Jan/15/2021 20:31"
   },
+  "CF115994686": {
+    "contest_id": 1046,
+    "language": "GNU C++17",
+    "path": "codeforces\\1046\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Space Formula",
+    "problem_url": "https://codeforces.com/contest/1046/problem/C",
+    "submission_id": "CF115994686",
+    "submission_url": "https://codeforces.com/contest/1046/submission/115994686",
+    "tags": [
+      "greedy",
+      "*1400"
+    ],
+    "timestamp": "May/12/2021 11:18"
+  },
   "CF115997417": {
     "contest_id": 1004,
     "language": "GNU C++17",
