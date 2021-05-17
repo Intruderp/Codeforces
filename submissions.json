@@ -1386,6 +1386,23 @@
     ],
     "timestamp": "Jan/15/2021 20:31"
   },
+  "CF116451178": {
+    "contest_id": 1057,
+    "language": "GNU C++17",
+    "path": "codeforces\\1057\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "DDoS",
+    "problem_url": "https://codeforces.com/contest/1057/problem/B",
+    "submission_id": "CF116451178",
+    "submission_url": "https://codeforces.com/contest/1057/submission/116451178",
+    "tags": [
+      "*special problem",
+      "brute force",
+      "*1400"
+    ],
+    "timestamp": "May/17/2021 11:15"
+  },
   "CF116486550": {
     "contest_id": 1330,
     "language": "GNU C++17",
