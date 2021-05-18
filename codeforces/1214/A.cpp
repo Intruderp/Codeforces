@@ -26,11 +26,10 @@ signed main()
     for(int i=0;i<=n;i++)
     {
         c1=i*x;
-        // if(c1>n)
-        // break;
+        if(c1>n)
+        break;
         c2=n-c1;
         c2=(c2/y)*y;
-        if(c1<=n)
         ans=min(ans,n-(c1+c2));
     }
     cout<<ans;
