@@ -53,8 +53,18 @@ void solve()
         if(v[i]==0)
         {
             auto it=s2.begin();
-            v[i]=*it;
-            s2.erase(it);
+            if(*it!=i+1)
+            {
+                v[i]=*it;
+                s2.erase(it);
+            }
+            else
+            {
+                auto it2=s2.end();
+                it2--;
+                v[i]=*it2;
+                s2.erase(it2);
+            }
         }
     }
     for(int i:v)
