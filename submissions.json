@@ -1,4 +1,20 @@
 {
+  "AC23224649": {
+    "contest_id": "abc204",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc204\\B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Nuts",
+    "problem_url": "https://atcoder.jp/contests/abc204/tasks/abc204_b",
+    "submission_id": "AC23224649",
+    "submission_url": "https://atcoder.jp/contests/abc204/submissions/23224649",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Jun/06/2021 17:39"
+  },
   "AC23232365": {
     "contest_id": "abc204",
     "language": "C++ (GCC 9.2.1)",
