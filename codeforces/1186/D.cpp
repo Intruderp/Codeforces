@@ -26,15 +26,22 @@ void solve()
         if(a[i]<0)
         a2+=abs(floor(a[i]));
     }
-    int x,y,m1,m2;
+    int x,y;
     if(a1==a2)
     {
         loop(i,0,n)
         {
+           x=floor(a[i]);
+           y=ceil(a[i]);
+           int m1=1,m2=1;
+           if(x==-0)
+           m1=-1;
+           if(y==-0)
+           m2=-1;
             if(a[i]>=0)
             cout<<ceil(a[i])<<endl;
             else 
-            cout<<floor(a[i])<<endl;
+            cout<<floor(a[i])*m1<<endl;
         }
     }
     else if(a1>a2)
@@ -44,7 +51,7 @@ void solve()
         {
            x=floor(a[i]);
            y=ceil(a[i]);
-           m1=1,m2=1;
+           int m1=1,m2=1;
            if(x==-0)
            m1=-1;
            if(y==0)
