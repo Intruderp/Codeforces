@@ -1,4 +1,20 @@
 {
+  "AC23269052": {
+    "contest_id": "abc204",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc204\\D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Cooking",
+    "problem_url": "https://atcoder.jp/contests/abc204/tasks/abc204_d",
+    "submission_id": "AC23269052",
+    "submission_url": "https://atcoder.jp/contests/abc204/submissions/23269052",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Jun/07/2021 09:45"
+  },
   "AC23635952": {
     "contest_id": "abc206",
     "language": "C++ (GCC 9.2.1)",
