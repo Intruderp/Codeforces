@@ -1386,6 +1386,23 @@
     ],
     "timestamp": "Jan/15/2021 20:31"
   },
+  "CF118939855": {
+    "contest_id": 991,
+    "language": "GNU C++17",
+    "path": "codeforces\\991\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Candies",
+    "problem_url": "https://codeforces.com/contest/991/problem/C",
+    "submission_id": "CF118939855",
+    "submission_url": "https://codeforces.com/contest/991/submission/118939855",
+    "tags": [
+      "binary search",
+      "implementation",
+      "*1500"
+    ],
+    "timestamp": "Jun/10/2021 12:42"
+  },
   "CF118962608": {
     "contest_id": 877,
     "language": "GNU C++17",
