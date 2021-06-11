@@ -53,8 +53,6 @@ void solve()
     n=0,m=0;
     for(int p:v)
     {
-        if(p>a)
-        break;
         while(a%p==0)
         {
             n++;
@@ -63,8 +61,6 @@ void solve()
     }
     for(int p:v)
     {
-        if(p>b)
-        break;
         while(b%p==0)
         {
             m++;
