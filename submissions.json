@@ -1386,6 +1386,24 @@
     ],
     "timestamp": "Jan/15/2021 20:31"
   },
+  "CF119208627": {
+    "contest_id": 496,
+    "language": "GNU C++17",
+    "path": "codeforces\\496\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Secret Combination",
+    "problem_url": "https://codeforces.com/contest/496/problem/B",
+    "submission_id": "CF119208627",
+    "submission_url": "https://codeforces.com/contest/496/submission/119208627",
+    "tags": [
+      "brute force",
+      "constructive algorithms",
+      "implementation",
+      "*1500"
+    ],
+    "timestamp": "Jun/12/2021 10:03"
+  },
   "CF119212249": {
     "contest_id": 748,
     "language": "GNU C++17",
