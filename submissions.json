@@ -1386,6 +1386,23 @@
     ],
     "timestamp": "Jan/15/2021 20:31"
   },
+  "CF119212249": {
+    "contest_id": 748,
+    "language": "GNU C++17",
+    "path": "codeforces\\748\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Santa Claus and Keyboard Check",
+    "problem_url": "https://codeforces.com/contest/748/problem/B",
+    "submission_id": "CF119212249",
+    "submission_url": "https://codeforces.com/contest/748/submission/119212249",
+    "tags": [
+      "implementation",
+      "strings",
+      "*1500"
+    ],
+    "timestamp": "Jun/12/2021 11:07"
+  },
   "CF119225383": {
     "contest_id": 858,
     "language": "GNU C++17",
