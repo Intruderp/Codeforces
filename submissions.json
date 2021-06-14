@@ -1386,6 +1386,24 @@
     ],
     "timestamp": "Jan/15/2021 20:31"
   },
+  "CF119414961": {
+    "contest_id": 749,
+    "language": "GNU C++17",
+    "path": "codeforces\\749\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Voting",
+    "problem_url": "https://codeforces.com/contest/749/problem/C",
+    "submission_id": "CF119414961",
+    "submission_url": "https://codeforces.com/contest/749/submission/119414961",
+    "tags": [
+      "greedy",
+      "implementation",
+      "two pointers",
+      "*1500"
+    ],
+    "timestamp": "Jun/14/2021 09:23"
+  },
   "CF119451651": {
     "contest_id": 268,
     "language": "GNU C++17",
