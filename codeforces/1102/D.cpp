@@ -42,21 +42,21 @@ void solve()
     if (c != n / 3 and c1 != n / 3 and c2 != n / 3)
     {
         int x, y, z;
-        if (c > n / 3)
+        if (c2 > n / 3)
         {
-            x = c - n / 3;
-            y = n / 3 - c1;
-            z = n / 3 - c2;
-            for (int i = n - 1; i >= 0; i--)
+            x = c2 - n / 3;
+            y = (c1 - n / 3) * (-1);
+            z = (c - n / 3) * (-1);
+            for (int i = 0; i < n; i++)
             {
                 if (x == 0)
                     break;
-                if (s[i] == '0')
+                if (s[i] == '2')
                 {
                     if (z > 0)
                     {
-                        s[i] = '2';
-                        c2++;
+                        s[i] = '0';
+                        c++;
                         z--;
                     }
                     else
@@ -65,7 +65,7 @@ void solve()
                         c1++;
                     }
                     x--;
-                    c--;
+                    c2--;
                 }
             }
         }
@@ -103,21 +103,21 @@ void solve()
                 }
             }
         }
-        if (c2 > n / 3)
+        if (c > n / 3)
         {
-            x = c2 - n / 3;
-            y = (c1 - n / 3) * (-1);
-            z = (c - n / 3) * (-1);
-            for (int i = 0; i < n; i++)
+            x = c - n / 3;
+            y = n / 3 - c1;
+            z = n / 3 - c2;
+            for (int i = n - 1; i >= 0; i--)
             {
                 if (x == 0)
                     break;
-                if (s[i] == '2')
+                if (s[i] == '0')
                 {
                     if (z > 0)
                     {
-                        s[i] = '0';
-                        c++;
+                        s[i] = '2';
+                        c2++;
                         z--;
                     }
                     else
@@ -126,10 +126,12 @@ void solve()
                         c1++;
                     }
                     x--;
-                    c2--;
+                    c--;
                 }
             }
         }
+        
+        
 
         cout << s;
         return;
