@@ -1386,6 +1386,22 @@
     ],
     "timestamp": "Jan/15/2021 20:31"
   },
+  "CF119634104": {
+    "contest_id": 137,
+    "language": "GNU C++17",
+    "path": "codeforces\\137\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "History",
+    "problem_url": "https://codeforces.com/contest/137/problem/C",
+    "submission_id": "CF119634104",
+    "submission_url": "https://codeforces.com/contest/137/submission/119634104",
+    "tags": [
+      "sortings",
+      "*1500"
+    ],
+    "timestamp": "Jun/16/2021 18:10"
+  },
   "CF119707254": {
     "contest_id": 1005,
     "language": "GNU C++17",
