@@ -23,33 +23,17 @@ void solve()
     string s;
     cin>>s;
     n=s.length();
-    vi v;
     loop(i,0,n)
     {
-        sum+=s[i]-'0';
-        if((s[i]-'0')%3==0)
-        {
-            ans++;
-            sum=0;
-            k=i;
-            continue;
-        }
-        if(sum!=0 and sum%3==0)
-        {
-            sum=0;
-            ans++;
-            k=i;
-            continue;
-        }
         int x=0;
+        sum+=s[i]-'0';
         for(int j=i;j>k;j--)
         {
-            x+=s[j]-'0';
+            x+=(s[j]-'0');
             if(x%3==0)
             {
                 ans++;
                 k=i;
-                sum=0;
                 break;
             }
         }
