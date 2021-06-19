@@ -25,8 +25,8 @@ void solve()
     loop(i,0,n)
     cin>>a[i];
     sort(a,a+n);
-    int d=INT_MAX,x;
-    for(int i=0;i<n-1;i++)
+    int d=INT_MAX,x,d2,d3,d4;
+    for(int i=1;i<n-2;i++)
     {
         if(a[i+1]-a[i]<d)
         {
@@ -34,12 +34,39 @@ void solve()
             x=i;
         }
     }
-    cout<<a[x]<<' ';
-    for(int i=x+2;i<n;i++)
-    cout<<a[i]<<' ';
-    for(int i=0;i<x;i++)
-    cout<<a[i]<<' ';
-    cout<<a[x+1]<<'\n';
+    d2=a[1]-a[0];
+    d3=a[n-1]-a[n-2];
+    d4=min({d2,d3,d});
+    if(d4==d)
+    {
+        cout<<a[x]<<' ';
+        for(int i=x+2;i<n;i++)
+        cout<<a[i]<<' ';
+        for(int i=0;i<x;i++)
+        cout<<a[i]<<' ';
+        cout<<a[x+1]<<'\n';
+    }
+    else if(d4==d2)
+    {
+        x=0;
+        cout<<a[x]<<' ';
+        for(int i=x+2;i<n;i++)
+        cout<<a[i]<<' ';
+        for(int i=0;i<x;i++)
+        cout<<a[i]<<' ';
+        cout<<a[x+1]<<'\n';
+    }
+    else
+    {
+        x=n-2;
+        cout<<a[x]<<' ';
+        for(int i=x+2;i<n;i++)
+        cout<<a[i]<<' ';
+        for(int i=0;i<x;i++)
+        cout<<a[i]<<' ';
+        cout<<a[x+1]<<'\n';
+    }
+    
 } 
 signed main()
 {
