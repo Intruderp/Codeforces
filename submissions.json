@@ -1386,6 +1386,25 @@
     ],
     "timestamp": "Jan/15/2021 20:31"
   },
+  "CF120169911": {
+    "contest_id": 1539,
+    "language": "GNU C++17",
+    "path": "codeforces\\1539\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Contest Start",
+    "problem_url": "https://codeforces.com/contest/1539/problem/A",
+    "submission_id": "CF120169911",
+    "submission_url": "https://codeforces.com/contest/1539/submission/120169911",
+    "tags": [
+      "combinatorics",
+      "geometry",
+      "greedy",
+      "math",
+      "*1000"
+    ],
+    "timestamp": "Jun/21/2021 08:43"
+  },
   "CF120172368": {
     "contest_id": 1539,
     "language": "GNU C++17",
