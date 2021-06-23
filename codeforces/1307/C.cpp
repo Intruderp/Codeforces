@@ -25,13 +25,13 @@ using namespace std;
 void solve()
 {
     int m1[26]={0};
-    int m2[26][26]={0};
     int ans=0,n,a1;
     string s;
     cin>>s;
     n=s.length();
     loop(i,0,n)
     m1[s[i]-'a']++;
+    map<string,int> m2;
     loop(i,0,n)
     {
         ans=max(ans,m1[s[i]-'a']);
@@ -42,11 +42,11 @@ void solve()
             st[0]=s[i];
             st[1]=c;
             if(m1[c-'a'])
-            m2[st[0]-'a'][st[1]-'a']+=m1[c-'a'];
-            ans=max(ans,m2[st[0]-'a'][st[1]-'a']);
+            m2[st]+=m1[c-'a'];
         }
-
     }
+    for(auto &it:m2)
+    ans=max(ans,it.S);
     pr(ans);
 } 
 signed main()
