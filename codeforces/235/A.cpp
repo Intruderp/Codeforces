@@ -51,15 +51,24 @@ int prime(int n)
 void solve()
 {
     cin>>n;
-    if(n==1 || n==2)
-    {
-        cout<<n;
-        return ;
-    }
-    if(n%2)
-    cout<<lcm(n,n-1,n-2);
-    else
-    cout<<max(lcm(n-1,n-2,n-3),lcm(n,n-1,n-3));
+    int answer=0,a1=0,a2=0,a3=0,a4=0,a5=0,a6=0;
+    a4=lcm(n,n,n);
+    if(n>2)
+    a3=lcm(n,n-1,n-2);
+    int p1,p2,p3;
+    if(n>3)
+    p1=prime(n-2);
+    if(n>3)
+    a2=lcm(n,n-1,p1);
+    p1=prime(n);
+    if(n>=2)
+    a1=lcm(p1,p1-1,p1-2);
+    if(n>3)
+    a5=lcm(n-1,n-2,n-3);
+    if(n>4)
+    a6=lcm(n,n-1,n-3);
+    answer=max({a2,a3,a4,a1,a5,a6});
+    pr(answer);
 } 
 signed main()
 {
