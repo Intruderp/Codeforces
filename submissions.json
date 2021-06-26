@@ -1,4 +1,20 @@
 {
+  "AC23762815": {
+    "contest_id": "abc207",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc207\\B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Hydrate",
+    "problem_url": "https://atcoder.jp/contests/abc207/tasks/abc207_b",
+    "submission_id": "AC23762815",
+    "submission_url": "https://atcoder.jp/contests/abc207/submissions/23762815",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Jun/26/2021 17:36"
+  },
   "AC23773731": {
     "contest_id": "abc207",
     "language": "C++ (GCC 9.2.1)",
