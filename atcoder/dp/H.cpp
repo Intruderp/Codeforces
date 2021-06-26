@@ -35,7 +35,7 @@ int help(int i,int j)
     return dp[i][j];
     if(a[i][j]=='#')
     return 0;
-    return dp[i][j]=(help(i+1,j)+help(i,j+1))%mod;
+    return dp[i][j]=(help(i+1,j)%mod+help(i,j+1)%mod)%mod;
 }
 void solve()
 {
