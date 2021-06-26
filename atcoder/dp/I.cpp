@@ -24,9 +24,9 @@
 using namespace std;
 /*************************************************************************************************/
 int n;
-double a[3000];
-double dp[3001][3001];             // notice here that we are using double dp array in place of int
-double help(int i,int h,int t)
+long double a[3000];
+long double dp[3001][3001];
+long double help(int i,int h,int t)
 {
     if(i==n)
     {
@@ -35,9 +35,9 @@ double help(int i,int h,int t)
         else 
         return 0;
     }
-    if(dp[i][t]!=-1)
-    return dp[i][t];
-    return dp[i][t]=help(i+1,h+1,t)*a[i]+help(i+1,h,t+1)*(1-a[i]);
+    if(dp[h][t]!=20)
+    return dp[h][t];
+    return dp[h][t]=help(i+1,h+1,t)*a[i]+help(i+1,h,t+1)*(1-a[i]);
 }
 void solve()
 {
@@ -46,8 +46,7 @@ void solve()
     cin>>a[i];
     for(int i=0;i<=3000;i++)
     for(int j=0;j<=3000;j++)
-    dp[i][j]=-1;
-    //memset(dp,-1,sizeof(dp));               // => using memset output=>nan
+    dp[i][j]=20;
     cout<<fixed<<setprecision(10)<<help(0,0,0);
 } 
 signed main()
