@@ -23,7 +23,7 @@
 using namespace std;
 /*************************************************************************************************/
 map<char,int> m;
-int l=0,h=1e12+100+1,a,b,c,x,y,z,r;
+int l=0,h=1e15,a,b,c,x,y,z,r;
 bool possible(int n)
 {
     int r1,r2,r3;
