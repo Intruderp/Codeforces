@@ -36,14 +36,16 @@ void solve()
     int a[n];
     loop(i,0,n)
     cin>>a[i];
-    vector<vector<int>> m(200000+1);
+    map<int,vi> m;
     loop(i,0,n)
     {
         int c=0,x=0;
         x=a[i];
-        while(x)
+        while(true)
         {
             m[x].pb(c);
+            if(x==0)
+            break;
             x/=2;
             c++;
         }
