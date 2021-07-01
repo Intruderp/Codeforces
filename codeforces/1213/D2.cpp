@@ -36,7 +36,7 @@ void solve()
     int a[n];
     loop(i,0,n)
     cin>>a[i];
-    unordered_map <int,vi> m;
+    vector<vector<int>> m(200000+1);
     loop(i,0,n)
     {
         int c=0,x=0;
