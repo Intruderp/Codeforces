@@ -12,7 +12,7 @@
 #define ll long long int
 #define pb push_back
 #define mod 1000000007
-//#define int long long
+#define int long long
 #define pr(x) cout<<x<<'\n'; return ;
 #define pry  cout<<"YES\n";return ;
 #define prn  cout<<"NO\n"; return ;
