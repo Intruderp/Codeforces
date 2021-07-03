@@ -28,6 +28,29 @@ void solve()
     cin>>n;
     h=n;
     l=1;
+    if(n==1)
+    {
+        cout<<"! "<<1<<endl;
+        return ;
+    }
+    cout<<"? "<<1<<endl;
+    cin>>x;
+    cout<<"? "<<2<<endl;
+    cin>>y;
+    if(y>x)
+    {
+        cout<<"! "<<1<<endl;
+        return ;
+    }
+    cout<<"? "<<n<<endl;
+    cin>>x;
+    cout<<"? "<<n-1<<endl;
+    cin>>y;
+    if(y>x)
+    {
+        cout<<"! "<<n<<endl;
+        return ;
+    }
     while(true)
     {
         mid=(h+l)/2;
@@ -38,29 +61,24 @@ void solve()
             cout<<"! "<<mid<<endl;
             return ;
         }
-        if(mid+1>n or mid+1<=0)
-        y=10000000;
-        else
-        {
-            cout<<"? "<<mid+1<<endl;
-            cin>>y;
-        }
+        cout<<"? "<<mid+1<<endl;
+        cin>>y;
+         
         if(y==1)
         {
             cout<<"! "<<mid+1<<endl;
             return ;
         }
+        if(mid+1==0 || mid+1>n)
+            y=100000000;
         if(y<x)
         l=mid+1;
         else
         {
-            if(mid-1<=0 or mid-1>n)
-            z=10000000;
-            else
-            {
-                cout<<"? "<<mid-1<<endl;
-                cin>>z;
-            }
+            cout<<"? "<<mid-1<<endl;
+            cin>>z;
+            if(mid-1==0 || mid-1>n)
+            z=100000000;
             if(z==1)
             {
                 cout<<"! "<<mid-1<<endl;
