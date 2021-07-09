@@ -31,8 +31,10 @@ void solve()
     memset(a,-1,sizeof(a));
     while(i<=n and j<=n)
     {
-        while(a[i]!=-1 and i<=n)                //to avoid over-writing
+        while(a[i]!=-1 and i<=n)
         i++;
+        while(a[j]!=-1 and j<=n)
+        j++;
         cout<<"? "<<i<<' '<<j<<endl;
         cin>>x;
         cout<<"? "<<j<<' '<<i<<endl;
