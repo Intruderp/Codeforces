@@ -1,4 +1,23 @@
 {
+  "CF122634079": {
+    "contest_id": 1423,
+    "language": "GNU C++17",
+    "path": "codeforces\\1423\\K.cpp",
+    "platform": "Codeforces",
+    "problem_index": "K",
+    "problem_name": "Lonely Numbers",
+    "problem_url": "https://codeforces.com/contest/1423/problem/K",
+    "submission_id": "CF122634079",
+    "submission_url": "https://codeforces.com/contest/1423/submission/122634079",
+    "tags": [
+      "binary search",
+      "math",
+      "number theory",
+      "two pointers",
+      "*1600"
+    ],
+    "timestamp": "Jul/16/2021 08:36"
+  },
   "CF122734603": {
     "contest_id": 1443,
     "language": "GNU C++17",
