@@ -1,4 +1,22 @@
 {
+  "CF122631890": {
+    "contest_id": 346,
+    "language": "GNU C++17",
+    "path": "codeforces\\346\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Alice and Bob",
+    "problem_url": "https://codeforces.com/contest/346/problem/A",
+    "submission_id": "CF122631890",
+    "submission_url": "https://codeforces.com/contest/346/submission/122631890",
+    "tags": [
+      "games",
+      "math",
+      "number theory",
+      "*1600"
+    ],
+    "timestamp": "Jul/16/2021 07:54"
+  },
   "CF122634079": {
     "contest_id": 1423,
     "language": "GNU C++17",
