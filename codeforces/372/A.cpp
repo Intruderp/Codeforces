@@ -39,6 +39,7 @@ void solve()
         i--;
     }
     k=i,j=n-1;
+    //cout<<i<<endl;
     while(i>=0 and j>k)
     {
         if(a[i]*2<=a[j])
@@ -48,7 +49,7 @@ void solve()
             ans++;
         }
         else 
-        i--;            //a[i] will always decrease
+        i--;
 
     }
     pr(ans+(n-ans*2))
