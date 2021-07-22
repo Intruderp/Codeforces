@@ -1,4 +1,22 @@
 {
+  "CF123264910": {
+    "contest_id": 678,
+    "language": "GNU C++17",
+    "path": "codeforces\\678\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Joty and Chocolate",
+    "problem_url": "https://codeforces.com/contest/678/problem/C",
+    "submission_id": "CF123264910",
+    "submission_url": "https://codeforces.com/contest/678/submission/123264910",
+    "tags": [
+      "implementation",
+      "math",
+      "number theory",
+      "*1600"
+    ],
+    "timestamp": "Jul/22/2021 15:54"
+  },
   "CF123385574": {
     "contest_id": 1553,
     "language": "GNU C++17",
