@@ -30,7 +30,7 @@ void solve()
     loop(i,0,n)
     cin>>a[i];
     int ans=INT_MIN,x=0;
-    for(int i=max(0ll,n-200);i<n;i++)
+    for(int i=max(0ll,n-500);i<n;i++)
     {
         for(int j=i+1;j<n;j++)
         {
