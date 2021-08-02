@@ -1,4 +1,21 @@
 {
+  "CF124637226": {
+    "contest_id": 1549,
+    "language": "GNU C++17",
+    "path": "codeforces\\1549\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Web of Lies",
+    "problem_url": "https://codeforces.com/contest/1549/problem/C",
+    "submission_id": "CF124637226",
+    "submission_url": "https://codeforces.com/contest/1549/submission/124637226",
+    "tags": [
+      "graphs",
+      "greedy",
+      "*1400"
+    ],
+    "timestamp": "Aug/02/2021 08:58"
+  },
   "CF124811478": {
     "contest_id": 385,
     "language": "GNU C++17",
